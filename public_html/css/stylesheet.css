@@ -106,3 +106,24 @@ color: #fff2e6;
 .bbq {
 width: 220px;
 }
+
+.lolol {
+    text-align: justify;
+    border-style: dotted;
+    border-width: 2px;
+}
+.member {
+  height: 245px;
+  width: 200px;
+  border: 3px solid white;
+  text-align: center;
+}
+.mycolor{
+    background-color: #fff1cf;
+    border-style: solid;
+    border-width: 1px;
+}
+.container {
+    background-color:#fff1cf;
+    border-style: solid;
+    border-width: 1px;

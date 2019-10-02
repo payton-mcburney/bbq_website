@@ -1,17 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Bagel's BBQ Sauce</title>
-	 <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-</head>
 
-<body>
-	<header> 
-	<img src="img/content/logo.png" alt="Bagel's Logo"> 
-	</header>
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"><h1>Bagel's BBQ Sauce</h1></a>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Homepage | Bagel's BBQ</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sandstone/bootstrap.min.css">
+
+<style>
+.lolol {
+    text-align: justify;
+    border-style: dotted;
+    border-width: 2px;
+}
+.member {
+  height: 245px;
+  width: 200px;
+  border: 3px solid white;
+  text-align: center;
+  
+}
+.mycolor{
+    background-color: #fff1cf;
+    border-style: solid;
+    border-width: 1px;
+}
+.container {
+    background-color:#fff1cf;
+    border-style: solid;
+    border-width: 1px;
+}
+</style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Bagel's BBQ</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -24,59 +53,81 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="locations.html">Location</a>
-          </li>
-          
-            <li class="nav-item">
-            <a class="nav-link" href="news.html">News</a>
-          </li>
-          
-          <li class="nav-item">
             <a class="nav-link" href="products.html">Products</a>
           </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="recipes.html">Recipes</a>
+          </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="recipe.html">Recipes</a>
+            <a class="nav-link" href="news.html">News</a>
           </li>
 
-          </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="locations.html">Locations</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
 
       </div>
     </nav>
-	<div>
-		<p>"Here at Bagel's, we're not just passionate about sauce, we live and breath sauce. We <i>ARE</i> the sauce."<br>-Saucy McStevens</p>
-	</div>
-	<div>
-		<h2>Featured Recipes</h2>
-		<ul>
-			<li><a href="recipes.html">Barbecue Bagel Sandwich</a></li>
-			<li><a href="recipes.html">Barbecue Chicken Platter</a></li>
-			<li><a href="recipes.html">BBQ Brisket</a></li>
-		</ul>
-	</div>
-	<div>
-		<h2>Did You Know?</h2>
-		<p>Bagel's is the best barbecue sauce in the universe!</p>
-		<p>Bagel's Barbecue derives from West Indian "barbacoa".</p>
-		 
-	</div>
 
-	<div>
-		<h3>Log in</h3>
-		<form>
-			Username:<br>
-			<input type="text" name="username"><br>
-			Password:<br>
-			<input type="password" name="password"><br><br>
-			<input type="submit" value="Log in">
-		</form>
-	</div>
+    <div class="container">
+
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+	<strong> Holy BBQ!</strong> Check out the Recipe page for more info on our infamous venom sauce!
+    </div>
+    
+    <div class="jumbotron">
+  <h1 class="display-4">Welcome to Bagel's BBQ!</h1>
+  <hr class="my-4">
+  <p><b>Here at Bagel's, we're not just passionate about sauce, we live and breath sauce. We ARE the sauce."</b><br>–<i>Saucy McStevens</i></p>
+    </div>
+
+		<div class="lolol"><h2><b> Featured Recipes</b></h2>
+		<ul>
+		     <li><p><a href="recipes.html" class="text-dark">Barbecue Bagel Sandwich</a></p></li>
+		</ul>
+		 <ul>
+			<li><p><a href="recipes.html" class="text-dark">Barbecue Chicken Platter</a></p></li>
+		</ul><br>
+		<ul>
+		    <li><p><a href="recipes.html" class="text-dark">BBQ Brisket</a></p></li>
+		</ul><br>
+		
+
+		<h2><b> Did You Know?</b></h2>
+		<ul>
+		<li>Bagel's is the best barbecue sauce in the galaxy!</li>
+		<li>Bagel's Barbecue derives from West Indian "barbacoa".</li> 
+		</ul>
+	</div><br>
+	<div class="member">
+	<table>
+	<tr>
+		<th><h4 style="font-size: 18px; font-variant: small-caps; color:black; text-align: center;"><b>Member Log in</b></h4></th></tr>
+		<tr><td>
+	<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-secondary">Log In</button>
+</form></td></tr></table>
+</div><br>
 	<footer>
 		<p>&#169; Copyright 2019 Bagel's Sauce and Co. | Website by Ahmed Musa</p>
-	</footer>
+	</footer></div>
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
