@@ -1,0 +1,736 @@
+
+--------------------------------------------------
+
+CSS HTML Validator Standard v2019 (Registered)
+Checking "C:\Users\trey.byers\Desktop\bbq_website\public_html\products.html" (3830 characters).
+File date is Tuesday, October 1, 2019 at 8:17:41 PM.
+File checked on Tuesday, October 1, 2019 at 8:17:59 PM.
+
+     Number of lines checked: 106 in 0.00 seconds
+ Number of lines in document: 122 (86.9% of lines checked)
+     Number of lines ignored: 16
+Number of character entities: 1
+        Number of start tags: 72
+          Number of end tags: 64 (88.9% of start tags with end tags)
+Number of <% ... %> sections: 0
+     Number of HTML comments: 0
+
+Number of validator comments: 13
+          Number of messages: 22
+            Number of errors: 0
+          Number of warnings: 1 (first in line 7)
+
+--------------------------------------------------
+
+   1: <!DOCTYPE html>
+   2: 
+   3: <html lang="en">
+   4: <head>
+   5:  <meta charset="utf-8">
+   6:  <title>Products | Bagel's BBQ Sauce</title>
+   7:  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   8:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   9:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sandstone/bootstrap.min.css">
+  10: <style>
+  11: .mycolor{
+  12:     background-color: #fff2e6;
+  13:     border-style: solid;
+  14:     border-width: 1px;
+  15: }
+  16: 
+  17: .container {
+  18:     background-color: #ffcc99;
+  19:     border-style: solid;
+  20:     border-width: 1px;
+  21: }
+  22: 
+  23: .bbq {
+  24:     width: 300px;
+  25: }
+  26: </style> 
+  27: </head>
+  28: 
+  29: <body>
+  30:     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  31:       <a class="navbar-brand" href="index.html">Bagel's BBQ</a>
+  32:       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  33:         <span class="navbar-toggler-icon"></span>
+  34:       </button>
+  35: 
+  36:       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  37: 
+  38:         <ul class="navbar-nav mr-auto">
+  39:           <li class="nav-item active">
+  40:             <a class="nav-link" href="products.html">Products <span class="sr-only">(current)</span></a>
+  41:           </li>
+  42: 
+  43:           <li class="nav-item">
+  44:             <a class="nav-link" href="index.html">Home</a>
+  45:           </li>
+  46: 
+  47:           <li class="nav-item">
+  48:             <a class="nav-link" href="locations.html">Locations</a>
+  49:           </li>
+  50:           
+  51:            <li class="nav-item">
+  52:             <a class="nav-link" href="about.html">About Us</a>
+  53:           </li>
+  54: 
+  55:            <li class="nav-item">
+  56:             <a class="nav-link" href="recipes.html">Recipes</a>
+  57:           </li>
+  58: 
+  59:           <li class="nav-item">
+  60:             <a class="nav-link" href="news.html">News</a>
+  61:           </li>
+  62:         </ul>
+  63: 
+  64:       </div>
+  65:     </nav>
+  66:         
+  67:         <div class="container col-2">
+  68:   <h1>Products</h1>
+  69:   </div>
+  70:   
+  71:   <div class="mycolor col-12">
+  72:   <table class="table table-hover">
+  73:     <thead>
+  74:       <tr>
+  75:         <th>Name</th>
+  76:         <th>Picture</th>
+  77:         <th>Description</th>
+  78:         <th>Spice Rating</th>
+  79:         <th>Price</th>
+  80:       </tr>
+  81:     </thead>
+  82:     <tbody>
+  83:       <tr>
+  84:         <td>Original Bagel's</td>
+  85:         <td><img class="bbq" src="img/content/original_sauce.png" alt="Bagel's original sauce." ></td>
+  86:         <td>This classic Bagel's recipe will surely make your mouth water!</td>
+  87:         <td>5/10</td>
+  88:         <td>$10.00</td>
+  89:       </tr>
+  90: 
+  91:       <tr>
+  92:         <td>Eastern BBQ Sauce</td>
+  93:         <td><img class="bbq" src="img/content/eastern_bbq_sauce.png" alt="Bagel's eastern barbecue sauce."></td>
+  94:         <td>A bland and boring blend of sweet peppers and onion, Bagel's Eastern Style BBQ Sauce will make your taste buds fall asleep.</td>
+  95:         <td>0/10</td>
+  96:         <td>$15.00</td>
+  97:       </tr>
+  98: 
+  99:       <tr>
+ 100:         <td>Dragon's Venom</td>
+ 101:         <td><img  class="bbq" src="img/content/dragons_venom.png" alt="Bagel's Dragon's Venom sauce."></td>
+ 102:         <td>Harvested with a non-toxic venom straight from the Dragon Viper's mouth, this <i>extremely</i> spicy sauce probably won't kill you.</td>
+ 103:         <td>30/10 (Insanely!) </td>
+ 104:         <td>$750.00</td>
+ 105:       </tr>
+ 106: 
+ 107:       <tr>
+ 108:         <td><i>New</i> Honey Mustard</td>
+ 109:         <td><img class="bbq" src="img/content/honey_mustard.png" alt="Bagel's honey mustard."></td>
+ 110:         <td>It's just mustard with honey.</td>
+ 111:         <td>3/10</td>
+ 112:         <td>$15.00</td>
+ 113:       </tr>
+ 114:     </tbody>
+ 115:   </table>
+ 116:  </div>
+ 117: 
+ 118:  <footer>
+ 119:  <p>&#169; Copyright 2019 Bagel's Sauce & Co. | Website by Trey Byers</p>
+ 120:  </footer>
+ 121: </body>
+ 122: </html>
+
+[CHV] Comment number 1:
+Congratulations! No errors were found.
+
+   1: <!DOCTYPE html>
+-------|||||||||||||
+
+[CHV] Message number 1 in line 1:2:
+An HTML5 DOCTYPE was found. HTML5 (sometimes called just
+HTML) is in a constant state of flux. While many parts of
+HTML5 are considered stable and safe to use, there are parts
+that are not stable or that may not be well supported by
+browsers. When using HTML5, be sure to understand the
+potential problems when using parts and features that may
+not be stable (and thus may change in the future) or that
+may not be widely supported. Visit
+https://www.htmlvalidator.com/help.php?m=3&h=safetouse for
+information about what is safe to use.
+
+   2: 
+   3: <html lang="en">
+   4: <head>
+   5:  <meta charset="utf-8">
+
+   6:  <title>Products | Bagel's BBQ Sauce</title>
+--------|||||
+
+[CHV] Message number 2 in line 6:3:
+Tip - A good title is important for search engine listings
+and can appear in search results pages. Try to use keywords
+and search terms in the title but keep it readable and not
+too long. Don't just stuff keywords in the title. The first
+words in the title are more likely to result in higher
+rankings than subsequent words, so use important keywords at
+the very beginning when reasonable. The title should also be
+something that a user will want to click on when it's listed
+on a search results page. A good title is also important
+when a visitor bookmarks a page. Example: <title>Download
+CSS HTML Validator - Powerful HTML and Link Checking
+Software for Windows</title>. We recommend that the "title"
+tag be one of the first tags inside the "head" section (but
+after any meta charset or viewport tags).
+
+   7:  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+-------------------||||||||
+
+[CHV] Warning number 1 in line 7:14:
+It is recommended that this viewport meta tag be moved up.
+The viewport meta tag should be one of the first tags after
+the "head" section start tag. Only the meta charset tag (if
+used) and the X-UA-Compatible meta tag (if used) should come
+before a viewport meta tag. This tag should also be before
+the title element.
+
+   8:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   9:     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sandstone/bootstrap.min.css">
+  10: <style>
+
+  11: .mycolor{
+------||||||||
+
+[CHV] Message number 3 in line 11:1:
+It's recommended that "*.mycolor" be used instead of
+".mycolor" so that the universal selector (*) is explicit
+instead of implied. Using explicit universal selectors can
+decrease confusion and improve readability. This message is
+displayed up to 3 times.
+
+  12:     background-color: #fff2e6;
+----------||||||||||||||||
+
+[CHV] Message number 4 in line 12:5:
+When a background color is defined, consider also defining a
+foreground color (by using the "color" property). This helps
+to avoid conflict with user-defined style sheets and to
+improve accessibility. This message is displayed up to 5
+times.
+
+  13:     border-style: solid;
+  14:     border-width: 1px;
+  15: }
+  16: 
+
+  17: .container {
+------||||||||||
+
+[CHV] Message number 5 in line 17:1:
+It's recommended that "*.container" be used instead of
+".container" so that the universal selector (*) is explicit
+instead of implied. Using explicit universal selectors can
+decrease confusion and improve readability. This message is
+displayed up to 3 times.
+
+  18:     background-color: #ffcc99;
+----------||||||||||||||||
+
+[CHV] Message number 6 in line 18:5:
+When a background color is defined, consider also defining a
+foreground color (by using the "color" property). This helps
+to avoid conflict with user-defined style sheets and to
+improve accessibility. This message is displayed up to 5
+times.
+
+  19:     border-style: solid;
+  20:     border-width: 1px;
+  21: }
+  22: 
+
+  23: .bbq {
+------||||
+
+[CHV] Message number 7 in line 23:1:
+It's recommended that "*.bbq" be used instead of ".bbq" so
+that the universal selector (*) is explicit instead of
+implied. Using explicit universal selectors can decrease
+confusion and improve readability. This message is displayed
+up to 3 times.
+
+  24:     width: 300px;
+  25: }
+  26: </style> 
+  27: </head>
+  28: 
+  29: <body>
+  30:     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  31:       <a class="navbar-brand" href="index.html">Bagel's BBQ</a>
+------------------------------------------||||||||||
+
+[CHV] Message number 8 in line 31:37:
+If always serving this page from a web server (and not from
+a local file system), then it may be better not to specify
+the actual index document name "index.html". Consider using
+href="./" instead. Visit
+https://webtips.dan.info/subdir.html#LinkHome for more
+information about the benefits of this method. Note: This is
+just a suggestion and is not required by any official
+standard.
+
+  32:       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+  33:         <span class="navbar-toggler-icon"></span>
+---------------||||
+
+[CHV] Message number 9 in line 33:10:
+This "span" element (with class="navbar-toggler-icon") is
+empty and may be useless if it's not used with CSS or
+JavaScript. This message is displayed up to 3 times.
+
+  34:       </button>
+  35: 
+  36:       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  37: 
+
+  38:         <ul class="navbar-nav mr-auto">
+---------------||
+
+[CHV] Message number 10 in line 38:10:
+Tip: Never use "ul" elements (nor "dl" elements) only to
+create indentation. This is bad practice and ignores the
+meaning of the "ul" element. Use CSS instead. This message
+is displayed only once.
+
+  39:           <li class="nav-item active">
+  40:             <a class="nav-link" href="products.html">Products <span class="sr-only">(current)</span></a>
+  41:           </li>
+  42: 
+  43:           <li class="nav-item">
+
+  44:             <a class="nav-link" href="index.html">Home</a>
+--------------------------------------------||||||||||
+
+[CHV] Message number 11 in line 44:39:
+If always serving this page from a web server (and not from
+a local file system), then it may be better not to specify
+the actual index document name "index.html". Consider using
+href="./" instead. Visit
+https://webtips.dan.info/subdir.html#LinkHome for more
+information about the benefits of this method. Note: This is
+just a suggestion and is not required by any official
+standard.
+
+  45:           </li>
+  46: 
+  47:           <li class="nav-item">
+  48:             <a class="nav-link" href="locations.html">Locations</a>
+  49:           </li>
+  50:           
+  51:            <li class="nav-item">
+  52:             <a class="nav-link" href="about.html">About Us</a>
+  53:           </li>
+  54: 
+  55:            <li class="nav-item">
+  56:             <a class="nav-link" href="recipes.html">Recipes</a>
+  57:           </li>
+  58: 
+  59:           <li class="nav-item">
+  60:             <a class="nav-link" href="news.html">News</a>
+  61:           </li>
+  62:         </ul>
+  63: 
+  64:       </div>
+  65:     </nav>
+  66:         
+  67:         <div class="container col-2">
+  68:   <h1>Products</h1>
+  69:   </div>
+  70:   
+  71:   <div class="mycolor col-12">
+  72:   <table class="table table-hover">
+  73:     <thead>
+  74:       <tr>
+  75:         <th>Name</th>
+  76:         <th>Picture</th>
+  77:         <th>Description</th>
+  78:         <th>Spice Rating</th>
+  79:         <th>Price</th>
+  80:       </tr>
+  81:     </thead>
+  82:     <tbody>
+  83:       <tr>
+  84:         <td>Original Bagel's</td>
+
+  85:         <td><img class="bbq" src="img/content/original_sauce.png" alt="Bagel's original sauce." ></td>
+-------------------|||
+
+[CHV] Message number 12 in line 85:14:
+It is recommended that the "height" and "width" attributes
+be used with the "img" element so browsers can leave the
+correct amount of space for them while downloading the image
+(which can take more time on mobile networks and devices).
+This will also prevent issues and annoyances due to reflow
+when the image becomes available or if image downloading is
+disabled. This message is displayed up to 5 times.
+
+  85:         <td><img class="bbq" src="img/content/original_sauce.png" alt="Bagel's original sauce." ></td>
+-------------------|||
+
+[CHV] Message number 13 in line 85:14:
+Image searches can be a significant source of visitors and
+traffic. Therefore, try to use keywords when naming images,
+and separate keywords with hyphens (not underscores). This
+message is displayed only once.
+
+  85:         <td><img class="bbq" src="img/content/original_sauce.png" alt="Bagel's original sauce." ></td>
+-------------------|||
+
+[CHV] Message number 14 in line 85:14:
+[7] Ensure that the "img" element is rarely, if ever, used
+as a layout tool. Always use CSS for layout and positioning.
+For example, do not use "img" elements to display
+transparent images which rarely convey meaning and rarely
+add anything useful to the document. This message is
+displayed only once.
+
+  85:         <td><img class="bbq" src="img/content/original_sauce.png" alt="Bagel's original sauce." ></td>
+----------------------------------------||||||||||||||||||||||||||||||
+
+[CHV] Message number 15 in line 85:35:
+[117] Both "height" and "width" attributes should be used
+with the "img" element. Recommend height="647" and
+width="545" for this image. Using these attributes generally
+result in faster and smoother (less jumpy) rendering. Using
+them is also considered to be good style. Please note that
+this tag has a "class" attribute and that style definitions
+are not checked for "height" and "width" values.
+
+  86:         <td>This classic Bagel's recipe will surely make your mouth water!</td>
+  87:         <td>5/10</td>
+  88:         <td>$10.00</td>
+  89:       </tr>
+  90: 
+  91:       <tr>
+  92:         <td>Eastern BBQ Sauce</td>
+
+  93:         <td><img class="bbq" src="img/content/eastern_bbq_sauce.png" alt="Bagel's eastern barbecue sauce."></td>
+-------------------|||
+
+[CHV] Message number 16 in line 93:14:
+It is recommended that the "height" and "width" attributes
+be used with the "img" element so browsers can leave the
+correct amount of space for them while downloading the image
+(which can take more time on mobile networks and devices).
+This will also prevent issues and annoyances due to reflow
+when the image becomes available or if image downloading is
+disabled. This message is displayed up to 5 times.
+
+  93:         <td><img class="bbq" src="img/content/eastern_bbq_sauce.png" alt="Bagel's eastern barbecue sauce."></td>
+----------------------------------------|||||||||||||||||||||||||||||||||
+
+[CHV] Message number 17 in line 93:35:
+[117] Both "height" and "width" attributes should be used
+with the "img" element. Recommend height="647" and
+width="545" for this image. Using these attributes generally
+result in faster and smoother (less jumpy) rendering. Using
+them is also considered to be good style. Please note that
+this tag has a "class" attribute and that style definitions
+are not checked for "height" and "width" values.
+
+  94:         <td>A bland and boring blend of sweet peppers and onion, Bagel's Eastern Style BBQ Sauce will make your taste buds fall asleep.</td>
+  95:         <td>0/10</td>
+  96:         <td>$15.00</td>
+  97:       </tr>
+  98: 
+  99:       <tr>
+ 100:         <td>Dragon's Venom</td>
+
+ 101:         <td><img  class="bbq" src="img/content/dragons_venom.png" alt="Bagel's Dragon's Venom sauce."></td>
+-------------------|||
+
+[CHV] Message number 18 in line 101:14:
+It is recommended that the "height" and "width" attributes
+be used with the "img" element so browsers can leave the
+correct amount of space for them while downloading the image
+(which can take more time on mobile networks and devices).
+This will also prevent issues and annoyances due to reflow
+when the image becomes available or if image downloading is
+disabled. This message is displayed up to 5 times.
+
+ 101:         <td><img  class="bbq" src="img/content/dragons_venom.png" alt="Bagel's Dragon's Venom sauce."></td>
+-----------------------------------------|||||||||||||||||||||||||||||
+
+[CHV] Message number 19 in line 101:36:
+[117] Both "height" and "width" attributes should be used
+with the "img" element. Recommend height="647" and
+width="545" for this image. Using these attributes generally
+result in faster and smoother (less jumpy) rendering. Using
+them is also considered to be good style. Please note that
+this tag has a "class" attribute and that style definitions
+are not checked for "height" and "width" values.
+
+ 102:         <td>Harvested with a non-toxic venom straight from the Dragon Viper's mouth, this <i>extremely</i> spicy sauce probably won't kill you.</td>
+-------------------------------------------------------------------------------------------------|
+
+[CHV] Message number 20 in line 102:92:
+The "em" element (for emphasized text) or the "cite" element
+(for citations) or the "dfn" element (for the defining
+instance of a term) may be more appropriate than the "i"
+element. The "i" element is often used when the "em" element
+would be more appropriate. Use the "i" element for text in
+an alternate voice or mood. If only italic text is desired,
+then use CSS. This message is displayed only once.
+
+ 103:         <td>30/10 (Insanely!) </td>
+ 104:         <td>$750.00</td>
+ 105:       </tr>
+ 106: 
+ 107:       <tr>
+ 108:         <td><i>New</i> Honey Mustard</td>
+
+ 109:         <td><img class="bbq" src="img/content/honey_mustard.png" alt="Bagel's honey mustard."></td>
+-------------------|||
+
+[CHV] Message number 21 in line 109:14:
+It is recommended that the "height" and "width" attributes
+be used with the "img" element so browsers can leave the
+correct amount of space for them while downloading the image
+(which can take more time on mobile networks and devices).
+This will also prevent issues and annoyances due to reflow
+when the image becomes available or if image downloading is
+disabled. This message is displayed up to 5 times.
+
+ 109:         <td><img class="bbq" src="img/content/honey_mustard.png" alt="Bagel's honey mustard."></td>
+----------------------------------------|||||||||||||||||||||||||||||
+
+[CHV] Message number 22 in line 109:35:
+[117] Both "height" and "width" attributes should be used
+with the "img" element. Recommend height="647" and
+width="545" for this image. Using these attributes generally
+result in faster and smoother (less jumpy) rendering. Using
+them is also considered to be good style. Please note that
+this tag has a "class" attribute and that style definitions
+are not checked for "height" and "width" values.
+
+ 110:         <td>It's just mustard with honey.</td>
+ 111:         <td>3/10</td>
+ 112:         <td>$15.00</td>
+ 113:       </tr>
+ 114:     </tbody>
+ 115:   </table>
+ 116:  </div>
+ 117: 
+ 118:  <footer>
+ 119:  <p>&#169; Copyright 2019 Bagel's Sauce & Co. | Website by Trey Byers</p>
+ 120:  </footer>
+ 121: </body>
+ 122: </html>
+
+[CHV] Comment number 2:
+WCAG 2.0/2.1 accessibility checking is off.
+
+[CHV] Comment number 3:
+Accessibility checking is off. This program can help you
+make your web pages more accessible. An accessible page is
+one that more individuals can use, such as individuals who
+are blind or deaf. It can also increase the usefulness of
+your web page for individuals who browse the web using
+slower devices like older computers or wireless devices like
+mobile phones and PDAs. An accessible website makes good
+business sense (and possibly good legal sense as well) and
+may even improve search engine rankings. You can enable or
+disable accessibility checking in the Validator Engine
+Options.
+
+[CHV] Comment number 4:
+Keyword density: Bagel's (10x - 7.9%), Sauce (8x - 6.3%), 10
+(4x - 3.1%), BBQ (4x - 3.1%), Eastern (3x - 2.4%), Honey (3x
+- 2.4%), Mustard (3x - 2.4%), Products (3x - 2.4%), Venom
+(3x - 2.4%), 15.00 (2x - 1.6%), Dragon's (2x - 1.6%), make
+(2x - 1.6%), mouth (2x - 1.6%), Original (2x - 1.6%), & (1x
+- 0.8%), 0 (1x - 0.8%), 10.00 (1x - 0.8%), 2019 (1x - 0.8%),
+3 (1x - 0.8%), 30 (1x - 0.8%). Remember: Don't write SEO
+optimized content. Write for people, which is what search
+engines want. List limited to first 20 unique words. 19
+words excluded.
+
+[CHV] Comment number 5:
+HTML5 document detected.
+
+[CHV] Comment number 6:
+Editing Tip: This document was specified as utf-8 encoded.
+Editing documents with the wrong encoding may cause document
+corruption. Ensure that any editor used to edit a document
+properly supports the document's encoding and properly loads
+it with the correct encoding. CSS HTML Validator's editor
+supports UTF-8 and other common encodings.
+
+[CHV] Comment number 7:
+Use CSS class names that describe the nature of the content
+instead of names that describe the presentation of the
+content. For example, don't use class="red" or class="bold",
+instead use something like class="important".
+
+[CHV] Comment number 8:
+This document's title is 28 characters long. Consider adding
+a <meta name="apple-mobile-web-app-title" content="(13
+character short title)"> tag to the head section. This
+shorter title will be used when an iOS user adds the page to
+their Home Screen, otherwise the page title will be used and
+will be chopped off after the 13th character. The title is:
+"Products | Bagel's BBQ Sauce".
+
+[CHV] Comment number 9:
+[133] Mobility Tip #10 - Avoid fixed widths and absolute
+units (like "px") in favor of relative widths (like percents
+and "em") wherever possible.
+
+[CHV] Comment number 10:
+<meta name="description" content="(actual description)">
+should be used in the "head" section to provide a brief
+description (preferably within 200-300 characters) of what
+is contained on this page. Although descriptions may not be
+used directly for rankings, search engines may display
+descriptions in search results, with bolding of the relevent
+keywords. Therefore, a good description can help boost
+click-through rates and thus increase traffic to a website.
+If you're using HTML Validator's integrated editor, then
+this can be added from the 'Tags' menu or from the HTML
+Inserter.
+
+[CHV] Comment number 11:
+Number of "a" links: 7, of which 0 (0.0%) have
+rel="nofollow". Use rel="nofollow" to tell search engines
+not to follow the link and tell Google not to transfer
+PageRank or anchor text across the link. Use rel="nofollow"
+for untrusted content, paid links, and crawl prioritization.
+Visit https://support.google.com/webmasters/answer/96569 for
+more information.
+
+[CHV] Comment number 12:
+[113] Random Search Engine Tip #21 - BEWARE OF FLASH. Be
+aware that using Flash causes issues for search engine
+spiders because they are unlikely to be able to see and
+index the text content in a Flash object. Use alternate ways
+of making Flash content available to search engines, such as
+including links to alternate pages that do not use Flash
+objects. This will also be helpful for visitors who are
+unable to view Flash content.
+
+[CHV] Comment number 13:
+0.02s, 0 errors, 1 warning, 22 messages, 12 validator
+comments, 122 lines, 72 elements (with 64 end tags), 0
+document comments, 1 character reference, 127 words spell
+checked (0 in comments).
+
+--------------------------------------------------
+
+<html> (3)
+| <head> (4)
+| | <meta /> (5)
+| | <title> (6) </title> (6)
+| | <meta /> (7)
+| | <link /> (8)
+| | <link /> (9)
+| | <style> (10) </style> (26)
+| </head> (27)
+| <body> (29)
+| | <nav> (30)
+| | | <a> (31) </a> (31)
+| | | <button> (32)
+| | | | <span> (33) </span> (33)
+| | | </button> (34)
+| | | <div> (36)
+| | | | <ul> (38)
+| | | | | <li> (39)
+| | | | | | <a> (40)
+| | | | | | | <span> (40) </span> (40)
+| | | | | | </a> (40)
+| | | | | </li> (41)
+| | | | | <li> (43)
+| | | | | | <a> (44) </a> (44)
+| | | | | </li> (45)
+| | | | | <li> (47)
+| | | | | | <a> (48) </a> (48)
+| | | | | </li> (49)
+| | | | | <li> (51)
+| | | | | | <a> (52) </a> (52)
+| | | | | </li> (53)
+| | | | | <li> (55)
+| | | | | | <a> (56) </a> (56)
+| | | | | </li> (57)
+| | | | | <li> (59)
+| | | | | | <a> (60) </a> (60)
+| | | | | </li> (61)
+| | | | </ul> (62)
+| | | </div> (64)
+| | </nav> (65)
+| | <div> (67)
+| | | <h1> (68) </h1> (68)
+| | </div> (69)
+| | <div> (71)
+| | | <table> (72)
+| | | | <thead> (73)
+| | | | | <tr> (74)
+| | | | | | <th> (75) </th> (75)
+| | | | | | <th> (76) </th> (76)
+| | | | | | <th> (77) </th> (77)
+| | | | | | <th> (78) </th> (78)
+| | | | | | <th> (79) </th> (79)
+| | | | | </tr> (80)
+| | | | </thead> (81)
+| | | | <tbody> (82)
+| | | | | <tr> (83)
+| | | | | | <td> (84) </td> (84)
+| | | | | | <td> (85)
+| | | | | | | <img /> (85)
+| | | | | | </td> (85)
+| | | | | | <td> (86) </td> (86)
+| | | | | | <td> (87) </td> (87)
+| | | | | | <td> (88) </td> (88)
+| | | | | </tr> (89)
+| | | | | <tr> (91)
+| | | | | | <td> (92) </td> (92)
+| | | | | | <td> (93)
+| | | | | | | <img /> (93)
+| | | | | | </td> (93)
+| | | | | | <td> (94) </td> (94)
+| | | | | | <td> (95) </td> (95)
+| | | | | | <td> (96) </td> (96)
+| | | | | </tr> (97)
+| | | | | <tr> (99)
+| | | | | | <td> (100) </td> (100)
+| | | | | | <td> (101)
+| | | | | | | <img /> (101)
+| | | | | | </td> (101)
+| | | | | | <td> (102)
+| | | | | | | <i> (102) </i> (102)
+| | | | | | </td> (102)
+| | | | | | <td> (103) </td> (103)
+| | | | | | <td> (104) </td> (104)
+| | | | | </tr> (105)
+| | | | | <tr> (107)
+| | | | | | <td> (108)
+| | | | | | | <i> (108) </i> (108)
+| | | | | | </td> (108)
+| | | | | | <td> (109)
+| | | | | | | <img /> (109)
+| | | | | | </td> (109)
+| | | | | | <td> (110) </td> (110)
+| | | | | | <td> (111) </td> (111)
+| | | | | | <td> (112) </td> (112)
+| | | | | </tr> (113)
+| | | | </tbody> (114)
+| | | </table> (115)
+| | </div> (116)
+| | <footer> (118)
+| | | <p> (119) </p> (119)
+| | </footer> (120)
+| </body> (121)
+</html> (122)

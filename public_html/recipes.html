@@ -4,70 +4,119 @@
 <head>
 	<meta charset="utf-8">
 	<title>Recipes | Bagel's BBQ Sauce</title>
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sandstone/bootstrap.min.css"> 
+<style>
+.mycolor{
+    background-color: #fff2e6;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.container {
+    background-color: #ffcc99;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.bbq {
+    width: 250px;
+}
+</style>
 </head>
 
-<body>
-	<header>
-		<img class="logo" src="img/content/logo.png" alt="The Bagel's logo.">
-		<nav><ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="products.html">Products</a></li>
-			<li><a href="recipes.html">Recipes</a></li>
-			<li><a href="news.html">News</a></li>
-			<li><a href="locations.html">Locations</a></li>
-			<li><a href="about.html">About Us</a></li>
-		</ul></nav>
-	</header>
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Bagel's BBQ</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="recipes.html">Recipes <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="locations.html">Locations</a>
+          </li>
+          
+           <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+
+           <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
 	
-	<div>
+	<div class="container col-2">
 		<h1>Recipes</h1>
-		<div>
-			<h3>Barbecue Bagel</h3>
-			<h4>Ingredients:</h4>
-			<ul>
+	</div>
+	 <table class="table">
+    <thead>
+      <tr>
+        <th>Dish</th>
+        <th>Ingredients</th>
+        <th>Directions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Barbecue Bagel</td>
+        <td><ul>
 				<li>Bagel of your choosing.</li>
 				<li>Shredded Pork.</li>
 				<li>Any one of Bagel's signature sauces!</li>
-			</ul>
-			<h4>Directions:</h4>
-			<ol>
+        </ul></td>
+        <td><ol>
 				<li>Toast your favorite Bagel.</li>
 				<li>Cook Pork to your liking.</li>
 				<li>Spread your favorite Bagel's sauce on the bagel.</li>
 				<li>Add Shredded Pork.</li>
 				<li>Enjoy!</li>
-			</ol>
-		</div>
-		<div>
-			<h3>Barbecue Chicken Breast</h3>
-			<h4>Ingredients:</h4>
-			<ul>
+        </ol></td>
+      </tr>
+      <tr>
+        <td>Barbecue Chicken Breast</td>
+        <td><ul>
 				<li>Chicken Breast of your choosing.</li>
 				<li>Any one of Bagel's signature sauces!</li>
-			</ul>
-			<h4>Directions:</h4>
-			<ol>
+        </ul></td>
+        <td><ol>
 				<li>Cook Chicken Breast to your liking.</li>
 				<li>Spread your favorite Bagel's sauce on the chicken.</li>
 				<li>Enjoy!</li>
-			</ol>
-		</div>
-		<div>
-			<h3>Barbecue Brisket</h3>
-			<h4>Ingredients:</h4>
-			<ul>
+        </ol></td>
+      </tr>
+      <tr>
+        <td>Barbecue Brisket</td>
+        <td><ul>
 				<li>Brisket of your choosing.</li>
 				<li>Any one of Bagel's signature sauces!</li>
-			</ul>
-			<h4>Directions:</h4>
-			<ol>
+        </ul></td>
+        <td><ol>
 				<li>Cook Brisket to your liking.</li>
 				<li>Spread your favorite Bagel's sauce on the Brisket.</li>
 				<li>Enjoy!</li>
-			</ol>
-		</div>
-	</div>
+        </ol></td>
+      </tr>
+    </tbody>
+  </table>
 	
 	<footer>
 	<p>&#169; Copyright 2019 Bagel's Sauce & Co. | Website by Trey Byers</p>

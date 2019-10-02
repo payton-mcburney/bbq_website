@@ -5,36 +5,97 @@
 <head>
 	<meta charset="utf-8">
 	<title>About Us | Bagel's BBQ Sauce</title>
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sandstone/bootstrap.min.css">
+<style>
+.mycolor{
+    background-color: #fff2e6;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.container {
+    background-color: #ffcc99;
+    border-style: solid;
+    border-width: 1px;
+}
+.bbq {
+    width: 250px;
+}
+</style>
 </head>
 
 <body>
-	<header>
-		<img class="logo" src="img/content/logo.png" alt="Bagel's Logo">
-	</header>
-	<nav><ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="products.html">Products</a></li>
-		<li><a href="recipes.html">Recipes</a></li>
-		<li><a href="news.html">News</a></li>
-		<li><a href="locations.html">Locations</a></li>
-		<li><a href="about.html">About Us</a></li>
-  
-	</ul></nav>
-	
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Bagel's BBQ</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About Us <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="locations.html">Locations</a>
+          </li>
+          
+           <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+
+           <li class="nav-item">
+            <a class="nav-link" href="recipes.html">Recipes</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+   	<div class="container col-10 text-center"> 	
 	<h1>About Us</h1>
 	<p>We are very passionate about barbecue sauce, so we made this website to advertise our amazing one of a kind sauces. Our famous sauces are made with absolute perfection, with effort and heart put into every bottle. Our world famous sauces are derived from ingredients found all over the world, from chili peppers in Australia, to the non-toxic venom of the secret Dragon Viper which is located towards the tip of the Himalayan Mountains. Due to all of this effort, you can be sure to get your money's worth out of our sauces. Try our award winning sauce and leave a review... We want YOUR business!</p>
+	</div>
+	
+	<div class="mycolor col-5">
 	<h2> Subscribe to Become a Bagel's BBQ Member!</h2>
-	<form>
-		E-Mail:<br>
-		<input type="text" name="E-Mail"><br>
-		Username:<br>
-		<input type="text" name="Username"><br>
-		Password:<br>
-		<input type="password" name="Password"><br>
-		<input type="checkbox" name="updates" value="signup" checked>Sign me up to receive updates and newsletter e-mails!<br>
-		<input id="signupbutton" type="submit" value="Sign up">
+	
+	<form class="form-horizontal" action="/action_page.php">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Email:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Password:</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+    </div>
+  </div>
+		<button type="button" class="btn btn-warning">Sign Up</button>
+		<button type="button" class="btn btn-success">Log In</button>
 	</form>
+	</div>
 
 	<footer>
 	<p>&#169; Copyright 2019 Bagel's Sauce & Co. | Website by Trey Byers</p>
